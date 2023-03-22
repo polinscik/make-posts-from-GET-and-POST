@@ -1,0 +1,25 @@
+body {
+    max-width: 1024px;
+    margin-left: 50%;
+    transform: translate(-50%, 0);
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    background-color: floralwhite;
+    @media (max-width: 512px) {
+        max-width: unset;
+    }
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+input {
+    padding: 0.5rem 1rem;
+}
+
+#postBtn {
+    padding: 0.5rem 1rem;
+    background-color: coral;
+}

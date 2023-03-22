@@ -1,0 +1,38 @@
+body {
+  max-width: 1024px;
+  margin-left: 50%;
+  transform: translate(-50%, 0);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: floralwhite;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+input {
+  padding: 0.5rem 1rem;
+}
+
+#postBtn {
+  padding: 0.5rem 1rem;
+  background-color: coral;
+}
+
+.post-container {
+  margin-top: 1.5rem;
+}
+
+.post {
+  margin: 0.5rem 0;
+  padding: 0.7rem;
+  border: 1px pink solid;
+  background-color: white;
+}
+.post__title {
+  margin-bottom: 0.5rem;
+}
