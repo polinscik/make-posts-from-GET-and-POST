@@ -1,0 +1,14 @@
+body {
+    margin-left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.post {
+    margin: 0.5rem 0;
+    &__title {
+        color: darkslategray;
+    }
+    &__body {
+        margin-bottom: 0.5rem;
+    }
+}
